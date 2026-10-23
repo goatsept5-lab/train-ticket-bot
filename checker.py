@@ -374,7 +374,7 @@ def format_alert_card(hit: dict) -> str:
         fare_str = f"₹{c['fare']}" if c['fare'] and c['fare'] != '0' else "Standard"
         lines.append(f"  • *{c['class']}*: ✅ *{c['seats']} Seats* | {fare_str} [{tag}]")
 
-    ct_url = f"https://www.confirmtkt.com/rbooking/trains/from/{hit['src']}/to/{hit['dst']}/date/{hit['date_api']}"
+    ct_url = f"https://www.confirmtkt.com/rbooking/trains/from/{hit['src']}/to/{hit['dst']}/{hit['date_api']}"
     lines.append(f"🔗 [1-Click Book on ConfirmTkt]({ct_url}) · [IRCTC](https://www.irctc.co.in/nget/train-search)")
     return "\n".join(lines)
 
@@ -458,6 +458,8 @@ def main():
     logging.info(f"Starting Train Ticket Availability Check (Scanning next {SCAN_DAYS} days)...")
     state = load_state()
 
+    is_initial_run = len(state.get("alerts", {})) == 0
+
     session = requests.Session()
     session.headers.update(get_browser_headers())
     try:
@@ -467,11 +469,38 @@ def main():
 
     logging.info(f"Scan complete. API Queries: {ok_count} ok, {fail_count} failed. Hits: {len(hits)}")
 
-    if hits:
-        sent = send_alerts(hits, state, now)
-        logging.info(f"Delivered {sent} grouped alert message(s) to Telegram.")
+    if is_initial_run:
+        logging.info("Initial run detected: baselining existing availability quietly without notification spam...")
+        for h in hits:
+            for c in h["classes"]:
+                state["alerts"][c["key"]] = {
+                    "train_no": h["train_no"],
+                    "train_name": h["train_name"],
+                    "date_code": h["date_code"],
+                    "class": c["class"],
+                    "seats": c["seats"],
+                    "fare": c["fare"],
+                    "sold_out": False,
+                    "alerted_at": now.isoformat(timespec="seconds"),
+                    "kind": "baseline",
+                }
+        save_state(state, now.strftime("%Y%m%d"))
+        send_telegram(
+            f"🚆 *Goat Train Bot Initialized!* ✅\n\n"
+            f"Successfully scanned and baselined the next *{SCAN_DAYS} days* across all corridors.\n\n"
+            f"🛡️ *Anti-Spam Mode Active:*\n"
+            f"You will **ONLY** be alerted when:\n"
+            f"  • 🔁 A full or waitlisted train **re-opens** with confirmed seats\n"
+            f"  • 🆕 Booking opens for a **new date**\n"
+            f"  • ➕ Extra coaches or quota are added\n\n"
+            f"Silent monitoring is active in the background."
+        )
     else:
-        logging.info("No new seat availability changes found.")
+        if hits:
+            sent = send_alerts(hits, state, now)
+            logging.info(f"Delivered {sent} grouped alert message(s) to Telegram.")
+        else:
+            logging.info("No new seat availability changes found.")
 
     healthy = check_health(state, ok_count, fail_count)
     save_state(state, now.strftime("%Y%m%d"))
