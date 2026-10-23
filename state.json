@@ -1402,11 +1402,11 @@
       "train_name": "PGT MAS EXPRESS",
       "date_code": "20261104",
       "class": "2A",
-      "seats": 1,
-      "fare": "1330",
+      "seats": 13,
+      "fare": "1190",
       "sold_out": false,
-      "alerted_at": "2026-10-23T11:02:58+05:30",
-      "kind": "baseline"
+      "alerted_at": "2026-10-23T11:07:58+05:30",
+      "kind": "surge"
     },
     "22652_20261104_3A": {
       "train_no": "22652",
@@ -1424,11 +1424,11 @@
       "train_name": "PGT MAS EXPRESS",
       "date_code": "20261104",
       "class": "SL",
-      "seats": 36,
-      "fare": "375",
+      "seats": 55,
+      "fare": "340",
       "sold_out": false,
-      "alerted_at": "2026-10-23T11:02:58+05:30",
-      "kind": "baseline"
+      "alerted_at": "2026-10-23T11:07:58+05:30",
+      "kind": "surge"
     },
     "12632_20261104_2A": {
       "train_no": "12632",
@@ -1622,11 +1622,11 @@
       "train_name": "PGT MAS EXPRESS",
       "date_code": "20261105",
       "class": "SL",
-      "seats": 5,
-      "fare": "375",
+      "seats": 18,
+      "fare": "340",
       "sold_out": false,
-      "alerted_at": "2026-10-23T11:02:58+05:30",
-      "kind": "baseline"
+      "alerted_at": "2026-10-23T11:07:58+05:30",
+      "kind": "surge"
     },
     "12632_20261105_2A": {
       "train_no": "12632",
@@ -2040,9 +2040,9 @@
       "train_name": "PGT MAS EXPRESS",
       "date_code": "20261107",
       "class": "3A",
-      "seats": 32,
+      "seats": 0,
       "fare": "955",
-      "sold_out": false,
+      "sold_out": true,
       "alerted_at": "2026-10-23T11:02:58+05:30",
       "kind": "baseline"
     },
@@ -2051,9 +2051,9 @@
       "train_name": "PGT MAS EXPRESS",
       "date_code": "20261107",
       "class": "SL",
-      "seats": 33,
+      "seats": 0,
       "fare": "375",
-      "sold_out": false,
+      "sold_out": true,
       "alerted_at": "2026-10-23T11:02:58+05:30",
       "kind": "baseline"
     },
@@ -3239,9 +3239,9 @@
       "train_name": "MAS PGT EXPRESS",
       "date_code": "20261115",
       "class": "1A",
-      "seats": 1,
+      "seats": 0,
       "fare": "2205",
-      "sold_out": false,
+      "sold_out": true,
       "alerted_at": "2026-10-23T11:02:58+05:30",
       "kind": "baseline"
     },
@@ -4207,11 +4207,11 @@
       "train_name": "PGT MAS EXPRESS",
       "date_code": "20261118",
       "class": "2A",
-      "seats": 8,
-      "fare": "1330",
+      "seats": 19,
+      "fare": "1190",
       "sold_out": false,
-      "alerted_at": "2026-10-23T11:02:58+05:30",
-      "kind": "baseline"
+      "alerted_at": "2026-10-23T11:07:58+05:30",
+      "kind": "surge"
     },
     "22652_20261118_3A": {
       "train_no": "22652",
@@ -5703,11 +5703,11 @@
       "train_name": "PGT MAS EXPRESS",
       "date_code": "20261123",
       "class": "2A",
-      "seats": 2,
-      "fare": "1330",
+      "seats": 15,
+      "fare": "1190",
       "sold_out": false,
-      "alerted_at": "2026-10-23T11:02:58+05:30",
-      "kind": "baseline"
+      "alerted_at": "2026-10-23T11:07:58+05:30",
+      "kind": "surge"
     },
     "22651_20261123_1A": {
       "train_no": "22651",
@@ -7177,11 +7177,11 @@
       "train_name": "PGT MAS EXPRESS",
       "date_code": "20261126",
       "class": "2A",
-      "seats": 5,
-      "fare": "1330",
+      "seats": 22,
+      "fare": "1190",
       "sold_out": false,
-      "alerted_at": "2026-10-23T11:02:58+05:30",
-      "kind": "baseline"
+      "alerted_at": "2026-10-23T11:07:58+05:30",
+      "kind": "surge"
     },
     "22652_20261126_3A": {
       "train_no": "22652",
@@ -7694,11 +7694,11 @@
       "train_name": "PGT MAS EXPRESS",
       "date_code": "20261127",
       "class": "2A",
-      "seats": 9,
-      "fare": "1330",
+      "seats": 21,
+      "fare": "1190",
       "sold_out": false,
-      "alerted_at": "2026-10-23T11:02:58+05:30",
-      "kind": "baseline"
+      "alerted_at": "2026-10-23T11:07:58+05:30",
+      "kind": "surge"
     },
     "22652_20261127_3A": {
       "train_no": "22652",
@@ -8937,11 +8937,11 @@
       "train_name": "PGT MAS EXPRESS",
       "date_code": "20261130",
       "class": "2A",
-      "seats": 1,
-      "fare": "1330",
+      "seats": 13,
+      "fare": "1190",
       "sold_out": false,
-      "alerted_at": "2026-10-23T11:02:58+05:30",
-      "kind": "baseline"
+      "alerted_at": "2026-10-23T11:07:58+05:30",
+      "kind": "surge"
     },
     "22651_20261130_1A": {
       "train_no": "22651",
@@ -9619,11 +9619,11 @@
       "train_name": "PGT MAS EXPRESS",
       "date_code": "20261201",
       "class": "SL",
-      "seats": 47,
-      "fare": "375",
+      "seats": 84,
+      "fare": "340",
       "sold_out": false,
-      "alerted_at": "2026-10-23T11:02:58+05:30",
-      "kind": "baseline"
+      "alerted_at": "2026-10-23T11:07:58+05:30",
+      "kind": "surge"
     },
     "22651_20261201_1A": {
       "train_no": "22651",
@@ -10224,11 +10224,11 @@
       "train_name": "PGT MAS EXPRESS",
       "date_code": "20261202",
       "class": "SL",
-      "seats": 29,
-      "fare": "375",
+      "seats": 112,
+      "fare": "340",
       "sold_out": false,
-      "alerted_at": "2026-10-23T11:02:58+05:30",
-      "kind": "baseline"
+      "alerted_at": "2026-10-23T11:07:58+05:30",
+      "kind": "surge"
     },
     "22651_20261202_1A": {
       "train_no": "22651",
@@ -10268,11 +10268,11 @@
       "train_name": "MAS PGT EXPRESS",
       "date_code": "20261202",
       "class": "SL",
-      "seats": 88,
-      "fare": "375",
+      "seats": 100,
+      "fare": "340",
       "sold_out": false,
-      "alerted_at": "2026-10-23T11:02:58+05:30",
-      "kind": "baseline"
+      "alerted_at": "2026-10-23T11:07:58+05:30",
+      "kind": "surge"
     },
     "12632_20261202_3A": {
       "train_no": "12632",
@@ -11401,11 +11401,11 @@
       "train_name": "PGT MAS EXPRESS",
       "date_code": "20261204",
       "class": "SL",
-      "seats": 26,
-      "fare": "375",
+      "seats": 84,
+      "fare": "340",
       "sold_out": false,
-      "alerted_at": "2026-10-23T11:02:58+05:30",
-      "kind": "baseline"
+      "alerted_at": "2026-10-23T11:07:58+05:30",
+      "kind": "surge"
     },
     "16367_20261204_3A": {
       "train_no": "16367",
@@ -12611,11 +12611,11 @@
       "train_name": "MAS PGT EXPRESS",
       "date_code": "20261207",
       "class": "SL",
-      "seats": 194,
-      "fare": "375",
+      "seats": 207,
+      "fare": "340",
       "sold_out": false,
-      "alerted_at": "2026-10-23T11:02:58+05:30",
-      "kind": "baseline"
+      "alerted_at": "2026-10-23T11:07:58+05:30",
+      "kind": "surge"
     },
     "20493_20261207_3A": {
       "train_no": "20493",
@@ -13447,11 +13447,11 @@
       "train_name": "PGT MAS EXPRESS",
       "date_code": "20261209",
       "class": "SL",
-      "seats": 6,
-      "fare": "375",
+      "seats": 98,
+      "fare": "340",
       "sold_out": false,
-      "alerted_at": "2026-10-23T11:02:58+05:30",
-      "kind": "baseline"
+      "alerted_at": "2026-10-23T11:07:58+05:30",
+      "kind": "surge"
     },
     "22651_20261209_3A": {
       "train_no": "22651",
@@ -13843,11 +13843,11 @@
       "train_name": "PGT MAS EXPRESS",
       "date_code": "20261210",
       "class": "SL",
-      "seats": 32,
-      "fare": "375",
+      "seats": 126,
+      "fare": "340",
       "sold_out": false,
-      "alerted_at": "2026-10-23T11:02:58+05:30",
-      "kind": "baseline"
+      "alerted_at": "2026-10-23T11:07:58+05:30",
+      "kind": "surge"
     },
     "22651_20261210_2A": {
       "train_no": "22651",
@@ -15801,11 +15801,11 @@
       "train_name": "PGT MAS EXPRESS",
       "date_code": "20261215",
       "class": "SL",
-      "seats": 51,
-      "fare": "375",
+      "seats": 112,
+      "fare": "340",
       "sold_out": false,
-      "alerted_at": "2026-10-23T11:02:58+05:30",
-      "kind": "baseline"
+      "alerted_at": "2026-10-23T11:07:58+05:30",
+      "kind": "surge"
     },
     "22651_20261215_2A": {
       "train_no": "22651",
@@ -17066,11 +17066,11 @@
       "train_name": "PGT MAS EXPRESS",
       "date_code": "20261217",
       "class": "SL",
-      "seats": 29,
-      "fare": "375",
+      "seats": 106,
+      "fare": "340",
       "sold_out": false,
-      "alerted_at": "2026-10-23T11:02:58+05:30",
-      "kind": "baseline"
+      "alerted_at": "2026-10-23T11:07:58+05:30",
+      "kind": "surge"
     },
     "22651_20261217_1A": {
       "train_no": "22651",
@@ -17737,11 +17737,11 @@
       "train_name": "PGT MAS EXPRESS",
       "date_code": "20261218",
       "class": "SL",
-      "seats": 24,
-      "fare": "375",
+      "seats": 119,
+      "fare": "340",
       "sold_out": false,
-      "alerted_at": "2026-10-23T11:02:58+05:30",
-      "kind": "baseline"
+      "alerted_at": "2026-10-23T11:07:58+05:30",
+      "kind": "surge"
     },
     "22651_20261218_1A": {
       "train_no": "22651",
@@ -17759,9 +17759,9 @@
       "train_name": "MAS PGT EXPRESS",
       "date_code": "20261218",
       "class": "2A",
-      "seats": 2,
+      "seats": 0,
       "fare": "1330",
-      "sold_out": false,
+      "sold_out": true,
       "alerted_at": "2026-10-23T11:02:58+05:30",
       "kind": "baseline"
     },
@@ -18331,22 +18331,22 @@
       "train_name": "PGT MAS EXPRESS",
       "date_code": "20261219",
       "class": "2A",
-      "seats": 5,
-      "fare": "1330",
+      "seats": 22,
+      "fare": "1190",
       "sold_out": false,
-      "alerted_at": "2026-10-23T11:02:58+05:30",
-      "kind": "baseline"
+      "alerted_at": "2026-10-23T11:07:58+05:30",
+      "kind": "surge"
     },
     "22652_20261219_3A": {
       "train_no": "22652",
       "train_name": "PGT MAS EXPRESS",
       "date_code": "20261219",
       "class": "3A",
-      "seats": 1,
-      "fare": "955",
+      "seats": 12,
+      "fare": "855",
       "sold_out": false,
-      "alerted_at": "2026-10-23T11:02:58+05:30",
-      "kind": "baseline"
+      "alerted_at": "2026-10-23T11:07:58+05:30",
+      "kind": "surge"
     },
     "22651_20261219_1A": {
       "train_no": "22651",
@@ -19607,11 +19607,11 @@
       "train_name": "PGT MAS EXPRESS",
       "date_code": "20261221",
       "class": "SL",
-      "seats": 55,
-      "fare": "375",
+      "seats": 132,
+      "fare": "340",
       "sold_out": false,
-      "alerted_at": "2026-10-23T11:02:58+05:30",
-      "kind": "baseline"
+      "alerted_at": "2026-10-23T11:07:58+05:30",
+      "kind": "surge"
     },
     "22651_20261221_1A": {
       "train_no": "22651",
