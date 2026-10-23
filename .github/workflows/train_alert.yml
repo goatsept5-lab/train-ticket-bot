@@ -5,8 +5,8 @@ name: Train Ticket Alert Bot
 # watcher, which takes over as soon as the current one finishes (concurrency
 # keeps exactly one running and one waiting).
 on:
-  schedule:
-    - cron: '7 * * * *'
+  # schedule:
+  #   - cron: '7 * * * *'
   workflow_dispatch:
     inputs:
       run_minutes:
