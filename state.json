@@ -2040,22 +2040,22 @@
       "train_name": "PGT MAS EXPRESS",
       "date_code": "20261107",
       "class": "3A",
-      "seats": 0,
+      "seats": 32,
       "fare": "955",
-      "sold_out": true,
-      "alerted_at": "2026-10-23T11:02:58+05:30",
-      "kind": "baseline"
+      "sold_out": false,
+      "alerted_at": "2026-10-23T11:12:58+05:30",
+      "kind": "reopened"
     },
     "22652_20261107_SL": {
       "train_no": "22652",
       "train_name": "PGT MAS EXPRESS",
       "date_code": "20261107",
       "class": "SL",
-      "seats": 0,
+      "seats": 33,
       "fare": "375",
-      "sold_out": true,
-      "alerted_at": "2026-10-23T11:02:58+05:30",
-      "kind": "baseline"
+      "sold_out": false,
+      "alerted_at": "2026-10-23T11:12:58+05:30",
+      "kind": "reopened"
     },
     "20606_20261107_1A": {
       "train_no": "20606",
@@ -3239,11 +3239,11 @@
       "train_name": "MAS PGT EXPRESS",
       "date_code": "20261115",
       "class": "1A",
-      "seats": 0,
+      "seats": 1,
       "fare": "2205",
-      "sold_out": true,
-      "alerted_at": "2026-10-23T11:02:58+05:30",
-      "kind": "baseline"
+      "sold_out": false,
+      "alerted_at": "2026-10-23T11:12:58+05:30",
+      "kind": "reopened"
     },
     "07536_20261115_2A": {
       "train_no": "07536",
@@ -17759,11 +17759,11 @@
       "train_name": "MAS PGT EXPRESS",
       "date_code": "20261218",
       "class": "2A",
-      "seats": 0,
+      "seats": 2,
       "fare": "1330",
-      "sold_out": true,
-      "alerted_at": "2026-10-23T11:02:58+05:30",
-      "kind": "baseline"
+      "sold_out": false,
+      "alerted_at": "2026-10-23T11:12:58+05:30",
+      "kind": "reopened"
     },
     "12632_20261218_2A": {
       "train_no": "12632",
