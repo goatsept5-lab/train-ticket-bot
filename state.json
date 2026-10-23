@@ -2040,9 +2040,9 @@
       "train_name": "PGT MAS EXPRESS",
       "date_code": "20261107",
       "class": "3A",
-      "seats": 32,
+      "seats": 0,
       "fare": "955",
-      "sold_out": false,
+      "sold_out": true,
       "alerted_at": "2026-10-23T11:12:58+05:30",
       "kind": "reopened"
     },
@@ -2051,9 +2051,9 @@
       "train_name": "PGT MAS EXPRESS",
       "date_code": "20261107",
       "class": "SL",
-      "seats": 33,
+      "seats": 0,
       "fare": "375",
-      "sold_out": false,
+      "sold_out": true,
       "alerted_at": "2026-10-23T11:12:58+05:30",
       "kind": "reopened"
     },
@@ -3239,9 +3239,9 @@
       "train_name": "MAS PGT EXPRESS",
       "date_code": "20261115",
       "class": "1A",
-      "seats": 1,
+      "seats": 0,
       "fare": "2205",
-      "sold_out": false,
+      "sold_out": true,
       "alerted_at": "2026-10-23T11:12:58+05:30",
       "kind": "reopened"
     },
@@ -17759,9 +17759,9 @@
       "train_name": "MAS PGT EXPRESS",
       "date_code": "20261218",
       "class": "2A",
-      "seats": 2,
+      "seats": 0,
       "fare": "1330",
-      "sold_out": false,
+      "sold_out": true,
       "alerted_at": "2026-10-23T11:12:58+05:30",
       "kind": "reopened"
     },
@@ -20228,6 +20228,39 @@
       "sold_out": false,
       "alerted_at": "2026-10-23T11:02:58+05:30",
       "kind": "baseline"
+    },
+    "20665_20261023_CC": {
+      "train_no": "20665",
+      "train_name": "TEN VANDEBHARAT",
+      "date_code": "20261023",
+      "class": "CC",
+      "seats": 1,
+      "fare": "1290",
+      "sold_out": false,
+      "alerted_at": "2026-10-23T11:17:58+05:30",
+      "kind": "new"
+    },
+    "22652_20261119_1A": {
+      "train_no": "22652",
+      "train_name": "PGT MAS EXPRESS",
+      "date_code": "20261119",
+      "class": "1A",
+      "seats": 3,
+      "fare": "1985",
+      "sold_out": false,
+      "alerted_at": "2026-10-23T11:17:58+05:30",
+      "kind": "new"
+    },
+    "22652_20261119_SL": {
+      "train_no": "22652",
+      "train_name": "PGT MAS EXPRESS",
+      "date_code": "20261119",
+      "class": "SL",
+      "seats": 51,
+      "fare": "340",
+      "sold_out": false,
+      "alerted_at": "2026-10-23T11:17:58+05:30",
+      "kind": "new"
     }
   },
   "fail_streak": 0
